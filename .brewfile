@@ -25,8 +25,10 @@ install wget --enable-iri
 
 # Install more recent versions of some OS X tools
 install vim --override-system-vi
-tap homebrew/dupes
+
+#tap homebrew/dupes
 install homebrew/dupes/grep
+
 # tap josegonzalez/homebrew-php
 # install php55
 
@@ -49,6 +51,15 @@ install zopfli
 
 # tap homebrew/versions
 # install lua52
+
+install lzop
+install maven
+install hadoop
+install hive
+
+#tap themodernlife/misc
+install hadoop-lzo
+
 
 # Remove outdated versions from the cellar
 cleanup
