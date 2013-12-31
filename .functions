@@ -94,6 +94,19 @@ function gitio() {
 	curl -i http://git.io/ -F "url=${2}" -F "code=${1}"
 }
 
+# Create a signed S3 URL
+function s3signedurl() {
+	if [ -z "${1}" ]; then
+		echo "Usage: \`s3signedurl s3://...\`"
+		return 1
+	fi
+	python <<EOF
+from boto.s3.connection import S3Connection
+conn = S3Connection()
+2592000
+EOF
+}
+
 # Start an HTTP server from a directory, optionally specifying the port
 function server() {
 	local port="${1:-8000}"
