@@ -15,6 +15,9 @@ install bash
 # Install homebrew python to get pip, etc...
 install python
 
+# Install s3cmd
+install --HEAD s3cmd
+
 # Install wget with IRI support
 install wget --enable-iri
 
