@@ -52,6 +52,11 @@ install tree
 install webkit2png
 install zopfli
 
+# Utilities I like
+install watch
+install pstree 
+
+
 # tap homebrew/versions
 # install lua52
 
