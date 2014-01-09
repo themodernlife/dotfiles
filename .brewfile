@@ -67,6 +67,8 @@ install maven
 install hadoop
 install hive
 
+install parallel
+
 #tap themodernlife/misc
 install hadoop-lzo
 
