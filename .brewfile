@@ -72,6 +72,7 @@ install parallel
 #tap themodernlife/misc
 install hadoop-lzo
 
+install ssh-copy-id
 
 # Remove outdated versions from the cellar
 cleanup
