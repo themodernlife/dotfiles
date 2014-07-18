@@ -146,3 +146,6 @@ alias reload="exec $SHELL -l"
 
 # Faster npm for europeans
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu"
+
+# Fun
+alias epoch2date="perl -pe's/([\d.]+)/localtime $1/e;'"
